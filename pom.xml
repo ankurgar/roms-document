@@ -52,6 +52,22 @@
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.redis.om</groupId>
+      <artifactId>redis-om-spring</artifactId>
+      <version>0.9.5</version>
+<!--      <exclusions>-->
+<!--        <exclusion>-->
+<!--          <groupId>org.apache.logging.log4j</groupId>-->
+<!--          <artifactId>log4j-to-slf4j</artifactId>-->
+<!--        </exclusion>-->
+<!--        &lt;!&ndash;                <exclusion>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <groupId>com.google.code.gson</groupId>&ndash;&gt;-->
+<!--        &lt;!&ndash;                    <artifactId>gson</artifactId>&ndash;&gt;-->
+<!--        &lt;!&ndash;                </exclusion>&ndash;&gt;-->
+<!--      </exclusions>-->
+    </dependency>
+
   </dependencies>
 
   <build>
